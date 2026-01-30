@@ -20,6 +20,13 @@
   .price-col { text-align: right; font-weight: bold; color: #000; }
   .qty-col { font-weight: bold; color: #555; }
 
+  /* ESTILO RESALTADO PARA ALSTRO Y GYPSO */
+  .highlight-main { 
+    font-weight: 900 !important; 
+    color: #000 !important; 
+    font-size: 15px !important;
+  }
+
   /* RESALTE PARA ROSAS ROJAS */
   .highlight-red { color: #d90429; font-weight: bold; }
   .highlight-red .price-col { color: #d90429; }
@@ -33,6 +40,7 @@
     .header h1 { font-size: 20px; }
     th { font-size: 10px; }
     td { font-size: 11px; }
+    .highlight-main { font-size: 13px !important; }
   }
 </style>
 </head>
@@ -41,14 +49,14 @@
   <div class="container">
     <div class="header">
       <h1>MIAMI INVENTORY ✈️✈️</h1>
-      <p>Professional Floral Distribution | Fresh Stock Update</p>
+      <p>Fresh Stock Update | Professional Floral Distribution</p>
     </div>
 
-    <div class="alert">⚡ READY FOR PICKUP & DELIVERY IN MIAMI ⚡</div>
+    <div class="alert">⚡ READY TO GO IN MIAMI ⚡</div>
 
     <div class="content">
       
-      <div class="date-header">Ready in Miami Now</div>
+      <div class="date-header">Ready to Go</div>
       <table>
         <thead>
           <tr>
@@ -59,52 +67,60 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td class="qty-col">1 QB</td><td>160ST</td><td>ALSTRO SUPREME HOT PINK 85CM</td><td class="price-col">$0.43</td></tr>
-          <tr><td class="qty-col">1 QB</td><td>100ST</td><td>CHRYSANTHEMUM ROSSANO 70CM ORANGE</td><td class="price-col">$0.75</td></tr>
-          <tr><td class="qty-col">2 QB</td><td>100ST</td><td>CHRYSANTHEMUM TESTAROSA 70CM</td><td class="price-col">$0.75</td></tr>
-          <tr><td class="qty-col">1 QB</td><td>180ST</td><td>LYSIMACHIA 60CM WHITE</td><td class="price-col">$0.53</td></tr>
-          <tr><td class="qty-col">1 QB</td><td>100ST</td><td>ROSE CANDY XPRESSION 60CM</td><td class="price-col">$1.10</td></tr>
-          <tr><td class="qty-col">1 QB</td><td>100ST</td><td>ROSE CANDY XPRESSION 70CM</td><td class="price-col">$1.21</td></tr>
-          <tr><td class="qty-col">1 QB</td><td>120ST</td><td>SCABIOSAS FOCAL LAVENDER OPEN CUT 60CM</td><td class="price-col">$0.71</td></tr>
-          <tr><td class="qty-col">1 QB</td><td>120ST</td><td>SPRAY ROSES PINK MAJOLICA 60CM PINK</td><td class="price-col">$0.94</td></tr>
+          <tr><td class="qty-col">1 QB</td><td>100ST</td><td>ROSE CANDY XPRESSION 70CM</td><td class="price-col">$1.00</td></tr>
+          <tr><td class="qty-col">1 QB</td><td>120ST</td><td>SPRAY ROSES PINK MAJOLICA 60CM PINK</td><td class="price-col">$0.80</td></tr>
         </tbody>
       </table>
 
-      <div class="date-header">Arriving Miami on Jan 30th</div>
+      <div class="date-header">Arriving Saturday, Jan 31st</div>
+      
+      <p style="font-size: 12px; color: #d90429; font-weight: bold; margin: 10px 0 5px 0;">HANDTIED BQTS - PERFECT FOR THE SEASON (SAVE LABOR COST)</p>
       <table>
         <tbody>
-          <tr><td style="width: 10%;" class="qty-col">16 QB</td><td style="width: 15%;">120ST</td><td style="width: 60%;">ALSTROEMERIA SUPER SELECT VDAY PACK 80CM ASST</td><td style="width: 15%;" class="price-col">$0.54</td></tr>
-          <tr><td class="qty-col">5 QB</td><td>300ST</td><td>CRASPEDIA BILLY BALLS 70CM YELLOW</td><td class="price-col">$0.37</td></tr>
-          <tr><td class="qty-col">21 QB</td><td>140ST</td><td>GYPSOPHILA GRANDTASTIC 250GR WHITE</td><td class="price-col">$0.45</td></tr>
-          <tr><td class="qty-col">21 QB</td><td>140ST</td><td>GYPSOPHILA XLENCE 250GR WHITE</td><td class="price-col">$0.45</td></tr>
+          <tr><td style="width: 10%;" class="qty-col">3 QB</td><td style="width: 15%;">12 BU</td><td style="width: 60%;">BOUQUET MESSY VDAY 50CM X15ST</td><td style="width: 15%;" class="price-col">$7.90</td></tr>
+          <tr><td class="qty-col">3 QB</td><td>12 BU</td><td>BOUQUET VDAY FEELING 40CM X 15ST</td><td class="price-col">$7.80</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight: bold; text-decoration: underline; margin-bottom: 5px;">GYPSO</p>
+      <table>
+        <tbody>
+          <tr class="highlight-main"><td style="width: 10%;">19 QB</td><td style="width: 15%;">140ST</td><td style="width: 60%;">GYPSOPHILA GRANDTASTIC 250GR WHITE</td><td style="width: 15%; text-align: right;">$4.50</td></tr>
+          <tr class="highlight-main"><td>15 QB</td><td>140ST</td><td>GYPSOPHILA XLENCE 250GR WHITE</td><td style="text-align: right;">$4.50</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight: bold; text-decoration: underline; margin-bottom: 5px;">ALSTRO</p>
+      <table>
+        <tbody>
+          <tr class="highlight-main"><td style="width: 10%;">14 QB</td><td style="width: 15%;">120ST</td><td style="width: 60%;">ALSTROEMERIA SUPER SELECT VDAY PACK 80CM ASST</td><td style="width: 15%; text-align: right;">$0.54</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight: bold; margin-bottom: 5px; color: #555;">PREMIUM FLOWERS</p>
+      <table>
+        <tbody>
+          <tr><td style="width: 10%;" class="qty-col">5 QB</td><td style="width: 15%;">300ST</td><td style="width: 60%;">CRASPEDIA BILLY BALLS 70CM YELLOW</td><td style="width: 15%;" class="price-col">$0.37</td></tr>
           <tr><td class="qty-col">5 QB</td><td>160ST</td><td>HYPERICUM SUPER 60CM BURGUNDY</td><td class="price-col">$0.41</td></tr>
-          <tr><td class="qty-col">5 QB</td><td>160ST</td><td>HYPERICUM SUPER 60CM PINK</td><td class="price-col">$0.41</td></tr>
-          <tr><td class="qty-col">22 QB</td><td>160ST</td><td>HYPERICUM SUPER 60CM RED</td><td class="price-col">$0.41</td></tr>
-          
-          <tr class="highlight-red"><td class="qty-col">7 QB</td><td>100ST</td><td>ROSE EXPLORER 50CM RED</td><td class="price-col">$1.26</td></tr>
-          <tr class="highlight-red"><td class="qty-col">18 QB</td><td>100ST</td><td>ROSE EXPLORER 60CM RED</td><td class="price-col">$1.36</td></tr>
+          <tr><td class="qty-col">3 QB</td><td>160ST</td><td>HYPERICUM SUPER 60CM PINK</td><td class="price-col">$0.41</td></tr>
+          <tr><td class="qty-col">21 QB</td><td>160ST</td><td>HYPERICUM SUPER 60CM RED</td><td class="price-col">$0.41</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight: bold; margin-bottom: 5px; color: #555;">ROSES</p>
+      <table>
+        <tbody>
+          <tr class="highlight-red"><td style="width: 10%;" class="qty-col">2 QB</td><td style="width: 15%;">100ST</td><td style="width: 60%;">ROSE EXPLORER 50CM RED</td><td style="width: 15%;" class="price-col">$1.26</td></tr>
           <tr class="highlight-red"><td class="qty-col">7 QB</td><td>100ST</td><td>ROSE EXPLORER 70CM RED</td><td class="price-col">$1.46</td></tr>
           <tr class="highlight-red"><td class="qty-col">2 QB</td><td>100ST</td><td>ROSE FREEDOM 70CM RED</td><td class="price-col">$1.41</td></tr>
-          
-          <tr><td class="qty-col">4 QB</td><td>100ST</td><td>ROSE HOT EXPLORER 70CM</td><td class="price-col">$1.16</td></tr>
           <tr><td class="qty-col">2 QB</td><td>100ST</td><td>ROSE MONDIAL 50CM WHITE</td><td class="price-col">$0.76</td></tr>
-          <tr><td class="qty-col">6 QB</td><td>100ST</td><td>ROSE MONDIAL 60CM WHITE</td><td class="price-col">$0.86</td></tr>
           <tr><td class="qty-col">2 QB</td><td>100ST</td><td>ROSE MOODY BLUES 50CM LAVENDER</td><td class="price-col">$0.91</td></tr>
-          <tr><td class="qty-col">2 QB</td><td>100ST</td><td>ROSE PLAYA BLANCA 60CM WHITE</td><td class="price-col">$1.06</td></tr>
-        </tbody>
-      </table>
-
-      <div class="date-header">Arriving Miami on Jan 31st</div>
-      <table>
-        <tbody>
-          <tr><td style="width: 10%;" class="qty-col">3 QB</td><td style="width: 15%;">12 BU</td><td style="width: 60%;">BOUQUET MESSY VDAY 50CM X15ST</td><td style="width: 15%;" class="price-col">$8.19</td></tr>
-          <tr><td class="qty-col">3 QB</td><td>12 BU</td><td>BOUQUET VDAY FEELING 40CM X 15ST</td><td class="price-col">$8.03</td></tr>
         </tbody>
       </table>
 
     </div>
 
-    <div style="text-align: center; padding: 10px; font-weight: bold; background: #eee; text-transform: uppercase;">Contact Our Sales Team</div>
+    <div style="text-align: center; padding: 10px; font-weight: bold; background: #eee; text-transform: uppercase;">Order Now - Contact Our Sales Team</div>
     <div class="cta-grid">
       <a href="https://wa.me/593982175896" class="btn-wa">Taty 🌸</a>
       <a href="https://wa.me/593939326949" class="btn-wa">Kass 🍃</a>
@@ -114,7 +130,7 @@
 
     <div class="footer">
       <p>Much Flowers Miami | Professional Floral Distribution</p>
-      <p>Stock moves quickly. Click any agent's name to order via WhatsApp.</p>
+      <p>Stock moves fast for V-Day. Click any agent's name to order via WhatsApp.</p>
     </div>
   </div>
 
